@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#text_area{
+    margin-bottom: 4vh;
+}
+
+.name_pwd{
+    width: 100%;
+    border: 1px rgb(196, 194, 194) solid;
+}
+
+.name_pwd input[type="text"], input[type="password"]{
+    margin: 2vh;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+input[type="textarea"]{
+    height: 50vh;
+}
+
+.submit{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 100%;
+}
+
+.head{
+    border: 1px rgb(196, 194, 194) solid;
+}
+
+h5{
+    word-wrap: break-word;
+}
+
+.content{
+    border: 1px rgb(196, 194, 194) solid;
+    margin-bottom: 2.5vh;
+    padding: 4vh;
+}
+
+.title{
+    padding: 1.5vh;
+    word-wrap: break-word;
+}
+
+.block_content{
+    border: 1px rgb(196, 194, 194) solid;
+    display: inline-block;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin: 0;
+}
+
+.block{
+    display: inline-block;
+}
+
+@media(max-width:992px){
+    .middle input[type="textarea"]{
+        height: 40vh;
+    }
+}
+
+@media(max-width:196px){
+    body{
+        width: fit-content;
+    }
+}
