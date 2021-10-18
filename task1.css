@@ -14,7 +14,6 @@ body{
 
 .name_pwd input[type="text"], input[type="password"]{
     margin: 2vh;
-    margin-top: 5vh;
     display: inline-block;
 }
 
